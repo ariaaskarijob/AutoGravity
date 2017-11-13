@@ -1,0 +1,22 @@
+Test case procedure for AG's take home test"
+
+1) Importing the right libraries:
+1-a) Importing selenium WebDrive,
+1-b) Importing openqa selenium for the browser that I used (chrome), ChromeDriver
+
+2) Create a public class named AutoGravityTest 
+2-a) Within the AutoGravityTest class, create public static void main sub,
+2-b) Use new WebDriver for Chrome(),
+2-c) Call the target point (https://www-staging.autogravity.com),
+2-d) Look for page elements, using "inspect" method,
+2-e) Find the right element for "Next" and call it in the script,
+2-f) Continue with the testing process, for my script I will go with "Mercedes-Benz,AMG GT AMG GT R Coupe",
+2-g) Look for "Next" element till get to the Personal Information section of Application,
+2-h) Using inspect method, look for elements on "First Name", "Last Name", "Date of Birth", "Mobile Phone", "Email", "Password", and "Confirm Password".
+2-i) Using "sendKeys" method in the script, fill out the form using my information ("Aria", "Askari","01011988","3108718857","aria.askari.job@gmail.com","!@3456aa","!@3456aa").
+2-j) Look for "Create and Continue" element id and go to next page.
+2-k) Same as 2-j step, fill out the test cases with my information: "Rent", "15250 Spectrum", "Irvine", "California", "92618". "06/2014", "4000", for Residence State, Address, City, State, Zip Code, Move in Date, and Mortgage (for drop-downs use the selectByVisibleText method).
+2-l) Next.
+2-m) Same as 2-j step, fill out the cases with my information: "Full Time", "Panasonic", "Test Engineer", "062010", "3108718857", "4000" for Employment Stats, Employer Name, Title, Start Date, Employer Phone Number, Gross Monthly Income" and Next (for dropdown use the selectByValue method).
+2-n) Stop the testing integration
+2-o) If it browser stops at the SSN page, its a success.
