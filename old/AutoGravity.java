@@ -53,7 +53,7 @@
 		driver.findElement(by.id("employee-start-date")).sendKeys("06/2014");
 		driver.findElement(by.id("employer-phone-number")).sendKeys("310-871-8857");
 		driver.findElement(by.id("gross-monthly-income")).sendKeys("$4000");
-		driver.fineElement(by.class("btn btn-primary")).click();
+		driver.findElement(by.class("btn btn-primary")).click();
 
 		// driver.quit();
 
