@@ -1,0 +1,8 @@
+In order to have to a better code, I use POM method where in debugging I can easily find the root and change an element id, class or whatever that is needed. 
+Using POM we can save a lot time when it comes to fixing or updating a script.
+For my project, I used a different class for each page of my application. One for "Personal Information", one for "ResidenceInformation" and last one for "EmployeeInformation".
+In each class, it will store all their locators within, meaning if the code doesn't work, we can go back to the broken class and have it fixed. Then for each locator, i made a meaningful method where it defines the POM method.
+POM method is very useful when the number of test-cases are a lot and the developer wants quickly find and fix the code. Also, the script will be more readable.In other words, its easy to maintain and we can re-use it for other applications.
+
+
+
